@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MedicalSitenew/static/css/main.9fbe945a.css",
+    "main.js": "/MedicalSitenew/static/js/main.10349e09.js",
+    "static/js/453.6259f910.chunk.js": "/MedicalSitenew/static/js/453.6259f910.chunk.js",
+    "static/media/logo.svg": "/MedicalSitenew/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MedicalSitenew/index.html",
+    "main.9fbe945a.css.map": "/MedicalSitenew/static/css/main.9fbe945a.css.map",
+    "main.10349e09.js.map": "/MedicalSitenew/static/js/main.10349e09.js.map",
+    "453.6259f910.chunk.js.map": "/MedicalSitenew/static/js/453.6259f910.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fbe945a.css",
+    "static/js/main.10349e09.js"
+  ]
+}
