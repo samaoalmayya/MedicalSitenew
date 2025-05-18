@@ -1,0 +1,82 @@
+header {
+  margin: 0px;
+  background-color: #ddd;
+  position: relative;
+}
+header .row h5 {
+  color: var(--second--color);
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  margin: 40px 0 5px 0;
+}
+header .row h2 {
+  color: var(--main-color);
+  font-size: 45px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  margin-top: 20px;
+}
+header .row button {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: var(--orange-color);
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+  width: 200px;
+  height: 60px;
+  transition: 0.3 ease-in-out;
+}
+header .row button a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+header .row button a:hover {
+  color: var(--main-color);
+}
+header .row button:hover {
+  opacity: 0.6;
+}
+header .row img {
+  width: 500px;
+  height: 420px;
+  max-width: 100%;
+  animation: mover 1s infinite alternate;
+  transition: 0.3s ease all;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+header .headerBox {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+header svg {
+  color: var(--second--color);
+  font-size: 50px;
+  /* transform: rotate(45deg) !important; */
+  animation: mover 2.2s infinite alternate;
+  position: absolute;
+  left: -7%;
+  top: 10%;
+}
+
+header span {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  color: white;
+  -webkit-text-stroke: 3px var(--orange-color);
+  animation: mover 2.2s infinite alternate;
+}

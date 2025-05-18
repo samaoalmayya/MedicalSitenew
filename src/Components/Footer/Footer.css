@@ -1,0 +1,83 @@
+footer .row .logoImage {
+  width: 100px;
+  margin-left: 50px;
+}
+footer .row p {
+  letter-spacing: 0.4;
+  font-size: 16px;
+  color: var(--main-color);
+}
+footer .row .footer-contact {
+  display: flex;
+  justify-content: space-around;
+}
+footer .row .footer-contact .phone {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  color: white;
+}
+footer .row .footer-contact .footer-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-color);
+  border-radius: 40%;
+}
+footer .row button {
+  margin-top: 20px;
+  margin-bottom: s 10px;
+  background-color: var(--orange-color) !important;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 5px;
+  width: 200px;
+  height: 60px;
+  transition: 0.3s ease-in-out;
+}
+footer .row .social {
+  display: flex;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+footer .row ul img {
+  width: 50px;
+  margin-top: 10px;
+}
+footer .row input {
+  transition: 0.3s ease-in-out;
+  border: 1px solid var(--orange-color);
+}
+footer .row input:hover {
+  border: 1px solid var(--main-color);
+}
+footer .row button:hover {
+  opacity: 0.8;
+}
+footer .footer_bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+}
+footer .footer_bottom span {
+  margin-top: 20px;
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  footer .row .cloSmall {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  footer .row .cloSmall {
+    width: 200px;
+  }
+}

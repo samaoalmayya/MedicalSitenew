@@ -1,0 +1,39 @@
+.Carousel_slider h3 {
+  color: var(--main-color) !important;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  height: 50px;
+  line-height: 50px;
+  opacity: 0.8;
+  border-radius: 25px;
+  width: 50%;
+  text-align: center;
+  margin-left: 100px;
+}
+.Carousel_slider p {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(93, 93, 167);
+  height: 50px;
+  line-height: 50px;
+  opacity: 0.8;
+  border-radius: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .Carousel_slider p {
+    font-size: 15px;
+  }
+  .Carousel_slider h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Carousel_slider p {
+    font-size: 10px;
+  }
+  .Carousel_slider h3 {
+    font-size: 15px;
+  }
+}

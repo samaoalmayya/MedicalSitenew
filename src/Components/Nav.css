@@ -1,0 +1,28 @@
+/* .navMain {
+  background-color: #fff;
+  height: 60px;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+
+ */
+.navbar-expand-lg .logoImage {
+  height: 80px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: var(--main-color);
+  height: 60px;
+}
+.navbar-expand-lg .navbar-nav .links {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.navbar-expand-lg .navbar-nav button {
+  width: 75%;
+}
+.navbar-expand-lg .navbar-nav .button_links {
+  width: 25%;
+}
